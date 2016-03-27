@@ -1,7 +1,6 @@
 var request = require('request');
 var fs = require('fs');
 var path    = require('path');
-var _    = require('lodash');
 var yargs   = require('yargs').argv;
 
 //  node ocr.js --image=test.png --result=testresult.json

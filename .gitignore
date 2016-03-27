@@ -1,3 +1,4 @@
 .env
 test.png
 node_modules
+test*
