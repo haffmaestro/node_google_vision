@@ -4,7 +4,7 @@ var path    = require('path');
 var _    = require('lodash');
 var yargs   = require('yargs').argv;
 
-//   node permutate.js --recipe=permutations5.json --result=candidates5.json
+//  node ocr.js --image=test.png --result=testresult.json
 
 var API_KEY = process.env.GOOGLE_VISION
 var imagePath = yargs.image
